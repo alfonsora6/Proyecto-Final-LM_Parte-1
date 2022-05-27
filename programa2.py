@@ -6,7 +6,6 @@ token=os.environ["token"]
 url_base="https://soccer.sportmonks.com/api/v2.0/"
 payload={'api_token':token}
 
-
 menu='''
     1- Buscar por liga.
     2- Mostrar todas las ligas disponibles.
