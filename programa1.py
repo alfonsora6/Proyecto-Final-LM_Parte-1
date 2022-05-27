@@ -1,4 +1,3 @@
-#Mostrar los paises del continente indicado.
 import requests
 import json
 import os
