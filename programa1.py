@@ -15,9 +15,9 @@ if r.status_code == 200:
     continentes=[]
     for continente in datos.get("data"):
         continentes.append(continente.get("name"))
-    print("LISTA DE CONTINENTES:")
+    print("\nLISTA DE CONTINENTES:\n")
     for var in continentes:
-        print(var)
+        print("-",var)
 
     continente=input("\nSelecciona un continente: ")
     while continente not in continentes:
@@ -36,9 +36,9 @@ if r.status_code == 200:
                 if pais.get("extra").get("continent") == continente:
                     paises.append(pais.get("name"))
 
-        print("\nPAÍSES DE",(continente).upper())
+        print("\nPAÍSES DE %s:\n"%(continente).upper())
         for var2 in paises:
-            print(var2) 
+            print("-",var2) 
     else:
         print("Error")
         print(r2.status_code)
