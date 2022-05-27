@@ -24,16 +24,17 @@ if r.status_code == 200:
         print("\nLISTA DE JUGADORES ENCONTRADOS:\n")
         for var in jugadores:
             print("-",var)
-        jugador=input("Introduce el nombre de uno de los jugadores encontrados: ")
+        jugador=input("\nIntroduce el nombre de uno de los jugadores encontrados: ")
         while jugador not in jugadores:
             print("Debes escoger uno de los jugadores encontrados.")
-            jugador=input("Introduce el nombre de uno de los jugadores encontrados: ")
+            jugador=input("\nIntroduce el nombre de uno de los jugadores encontrados: ")
 
     elif len(jugadores)==1:
         encontrado=True
         print("\nJUGADOR ENCONTRADO:\n")
         for var in jugadores:
             print("-",var)
+            jugador=var
 
     else:
         print("No se han encontrado jugadores con ese nombre.")
