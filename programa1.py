@@ -8,12 +8,11 @@ payload={'api_token':token}
 
 url=url_base+"continents"
 
-continentes=[]
-
 r=requests.get(url,params=payload)
 
 if r.status_code == 200:
     datos=r.json()
+    continentes=[]
     for continente in datos.get("data"):
         continentes.append(continente.get("name"))
     print("LISTA DE CONTINENTES:")
