@@ -31,6 +31,9 @@ Una vez que este corregida la parte 1, se abrirá la tarea de la 2ª parte.
 #### ¿QUÉ HACE EL PROGRAMA 3?
 - El programa nos pedirá un nombre de un jugador. En caso de que encuentre varios resultados los mostrará y nos pedirá uno en concreto. Finalmente nos mostrará las estadísticas de dicho jugador.
 
+## Descripción de lo que va a hacer la aplicación web
+- La aplicación web servirá para conocer las estadísticas generales sobre futbol, ya sea información acerca de jugadores, equipos que pertenecen a una liga, y sus puestos, además de otras funcionalidades que incluye la API. Es cierto que la API está limitada, con esto me refiero a que no obtendremos la información completa, sino una parte de ella.
+
 
 ## URL de la documentación de la API
 https://docs.sportmonks.com/football/
