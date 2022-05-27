@@ -22,13 +22,13 @@ En redmine entrega los siguientes puntos:
 Una vez que este corregida la parte 1, se abrirá la tarea de la 2ª parte.
 
 
-¿QUÉ HACE EL PROGRAMA 1?
+#### ¿QUÉ HACE EL PROGRAMA 1?
 - Nos mostrará la lista de continentes, a continuación le indicaremos un continente válido y nos mostrará la lista de países de dicho continente.
 
-¿QUÉ HACE EL PROGRAMA 2?
+#### ¿QUÉ HACE EL PROGRAMA 2?
 - 
 
-¿QUÉ HACE EL PROGRAMA 3?
+#### ¿QUÉ HACE EL PROGRAMA 3?
 - 
 
 
