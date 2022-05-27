@@ -3,7 +3,7 @@ import requests
 import json
 import os
 
-token="4Pa0CRuUE3EisFxcJDJCb5OeNpM9SJzxbn36kBVS0Tj0J0ofpBmiIk2DvBV5"
+token=os.environ["token"]
 url_base="https://soccer.sportmonks.com/api/v2.0/"
 payload={'api_token':token}
 
