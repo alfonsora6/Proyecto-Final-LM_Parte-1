@@ -29,7 +29,7 @@ Una vez que este corregida la parte 1, se abrirá la tarea de la 2ª parte.
 - El programa nos comienza mostrando un menú con una serie de opciones, escogemos una de las opciones ("Mostrar todas las ligas", "Buscar ligas" o "Salir del programa"). Una vez que introduzcamos la liga por teclado nos mostrará las temporadas en las que ha participado.
 
 #### ¿QUÉ HACE EL PROGRAMA 3?
-- 
+- El programa nos pedirá un nombre de un jugador. En caso de que encuentre varios resultados los mostrará y nos pedirá uno en concreto. Finalmente nos mostrará las estadísticas de dicho jugador.
 
 
 ## URL de la documentación de la API
