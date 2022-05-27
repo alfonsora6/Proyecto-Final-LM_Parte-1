@@ -38,6 +38,7 @@ if r.status_code == 200:
 
     else:
         print("No se han encontrado jugadores con ese nombre.")
+        encontrado=False
     
     if encontrado==True:
         print("\nEstadísticas de %s\n"%jugador)
