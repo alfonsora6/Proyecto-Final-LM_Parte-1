@@ -37,6 +37,7 @@ if opcion==1:
                 print("-",liga)
         else:
             print("No se han encontrado ligas con ese nombre.")
+            exit()
     else:
         print("Error")
         print(r.status_code)
